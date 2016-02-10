@@ -228,7 +228,7 @@ function create_config( )
       "weather",
       "xkcd",
       "youtube" },
-    sudo_users = {our_id},
+    sudo_users = {146661928},
     disabled_channels = {}
   }
   serialize_to_file(config, './data/config.lua')
@@ -287,7 +287,7 @@ function cron_plugins()
 end
 
 -- Start and load values
-our_id = 0
+our_id = 146661928
 now = os.time()
 math.randomseed(now)
 started = false
